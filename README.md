@@ -13,7 +13,7 @@ Lin X, Chen B, Chen J et al. (2017) Seasonal fluctuations of photosynthetic para
 
 The "READ ME_Steps_to_run_Scripts.txt" file contains step-by-step instructions for running the scripts.
 
-Also, the "Sample_data_params" directory contains some sample data to run the code, and the "Sample_output_figures" directory contains a few examples of the model outputs.
+Also, the "Sample_data_params" directory contains some sample data to run the model, and the "Sample_output_figures" directory contains a few examples of the model outputs.
 
 Overall, the codes here are used to run the GPP model, calibrate the model to optimize the maximum light use efficiency parameter and validate the model.
 
