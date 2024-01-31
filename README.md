@@ -18,9 +18,11 @@ Also, the "Sample_data_params" directory contains some sample data to run the co
 Overall, the codes here are used to run the GPP model, calibrate the model to optimize the maximum light use efficiency parameter and validate the model.
 
 ![image](https://github.com/mds-islam/MOD17-GPP-MATLAB/assets/158111120/74e59b16-4af4-4279-806d-1689bd27e038)
+
 Fig.1 Observed vs simulated GPP with initial LUEmax value (1.206). R^2 = 0.8697, RMSE = 2.03 g C/m2/day
 
 ![image](https://github.com/mds-islam/MOD17-GPP-MATLAB/assets/158111120/0ef1b93e-5f08-4233-8f71-ecf671e2a773)
+
 Fig.2 Observed vs simulated GPP with optimized LUEmax value (2.30). R^2 = 0.8697, RMSE = 1.16 g C/m2/day
 
 
