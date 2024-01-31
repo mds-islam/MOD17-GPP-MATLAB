@@ -1,0 +1,26 @@
+Description of MATLAB scripts in "Saiful/GPP_Simulation_MATLAB/MATLAB_Script" directory:
+
+There are four MATLAB code:
+
+1. "full_gpp_dahra" contains step by step scripts to run, calibrate, validation, and sensitivity of the model. This script is linked to all other scripts.
+2. "GPP_dahra" contains the main model.
+3. "calibrate_gpp" contains the script for calculating RMSE before calibration.
+4. "validate_gpp" contains the script for validation (RMSE after calibration).
+
+Steps to run the entire model in "full_gpp_dahra" script (run each section seperately):
+
+1. Set initial parameter (LUEmax value).
+2. Run the model (it will call "GPP_dahra")
+3. Run calibration. It will call "calibrate_gpp" and calculates RMSE before calibration. It is possible to define data length.
+4. Run fminsearch. It will optimize LUEmax value with least RMSE and will provide a new LUEmax value in "Result" array, which is the new parameter.
+5. Run the model again. It will call "GPP_dahra", but this time using new parameter.
+6. Run validation. It will calculate RMSE after calibration. It is possible to define data length if calibration and validation dataset are different.
+7. Run sensitivity. It is run the model for different LUEmax values.
+8. Run calculate statistics. It will calculate RMSE and Total GPP of all model run.
+
+
+------
+Md Saiful Islam
+Summer Intern 2022, RAMONA Project
+Dept. of Physical Geography and Ecosystem Science, Lund University
+mdsaiful91@gmail.com
