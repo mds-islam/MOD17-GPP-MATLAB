@@ -1,6 +1,6 @@
 # Terms of Use
 
-This repository contains code developed by Saiful Islam as part of my summer internship at Lund University, Sweden and my master's research at the ITC Faculty of Geo-information Science and Earth Observation of the University of Twente, the Netherlands.
+This repository contains code developed by me, Saiful Islam, as part of my summer internship at Lund University, Sweden and my master's research at the ITC Faculty of Geo-information Science and Earth Observation of the University of Twente, the Netherlands.
 
 - This code is made publicly visible **for academic transparency and reproducibility**.
 - **No license is currently granted** for reuse, reproduction, or distribution.
